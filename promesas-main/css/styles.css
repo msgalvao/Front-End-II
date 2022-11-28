@@ -1,0 +1,35 @@
+@import url('https://fonts.google.com/specimen/Roboto+Condensed?query=roboto');
+
+:root {
+    --primary: #5e626f;
+    --secondary: #8E64C5;
+    --app-grey: #F2F2F2;
+  }
+
+*{
+    padding: 0;
+    margin: 10;
+    box-sizing: content-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+background: linear-gradient(110deg, var(--primary), var(--secondary));
+height: 100vh;
+}
+
+h1{
+  text-align: left;
+  margin: 20px 50;
+}
+
+.tarjeta{
+  background-color: rgb(125, 211, 141);
+  border-radius: 20px;
+  margin: 0 auto;
+  height: 200px;
+  width: 50%;
+  max-width: 400px;
+  text-align: center;
+  padding: 10px;
+}
